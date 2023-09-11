@@ -54,7 +54,7 @@ body {
     justify-content: space-between;
     margin-top: 80px;
 }
-.result button {
+.result-btn {
     background-color: transparent;
     color: #ae9cff;
     border: none;
