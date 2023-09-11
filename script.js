@@ -28,11 +28,7 @@ btn.addEventListener('click', () => {
             ${data[0].meanings[0].definitions[0].synonyms || ''}
         </p>`;
     });
-    .catch( () => {
-        result.innerHTML = `<h3>Couldnt find the word..</h3>`
-    })
+    
 });
 
-function playSound() {
-    sound.play();
-}
+
